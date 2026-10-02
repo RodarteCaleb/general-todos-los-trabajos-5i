@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Rodarte Gonzalez Caleb Daniel -->
+<!-- 5ºI -->
+<!-- 1083 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+<h2>Formularios con agrupamiento</h2>
+<!-- Este encabezado identifica el formulario -->
+<form action="" method="post">
+<!-- Este elemento contiene los datos del formulario -->
+<fieldset>
+<!-- Este elemento agrupa los primeros campos -->
+<legend>Datos personales</legend>
+<!-- Este texto identifica el grupo -->
+Nombre y apellido:
+<!-- Este texto indica el dato que se solicita -->
+<input type="text" name="nombre_apellido"><br>
+<!-- Este campo permite escribir nombre y apellido -->
+Documento valido:
+<!-- Este texto indica el documento solicitado -->
+<input type="file" name="documento"><br>
+<!-- Este campo permite seleccionar un documento -->
+Fecha de nacimiento:
+<!-- Este texto indica la fecha solicitada -->
+<input type="date" name="fecha_nacimiento">
+<!-- Este campo permite seleccionar una fecha -->
+</fieldset>
+<!-- Este elemento cierra el primer grupo -->
+<fieldset>
+<!-- Este elemento agrupa los segundos campos -->
+<legend>Datos de estudio:</legend>
+<!-- Este texto identifica el segundo grupo -->
+Nombre de la escuela:
+<!-- Este texto indica el dato que se solicita -->
+<input type="text" name="escuela"><br>
+<!-- Este campo permite escribir el nombre de la escuela -->
+Certificado valido:
+<!-- Este texto indica el certificado solicitado -->
+<input type="file" name="certificado"><br>
+<!-- Este campo permite seleccionar un certificado -->
+Fecha de egreso:
+<!-- Este texto indica la fecha solicitada -->
+<input type="date" name="fecha_egreso">
+<!-- Este campo permite seleccionar la fecha de egreso -->
+</fieldset>
+<!-- Este elemento cierra el segundo grupo -->
+<br>
+<!-- Este elemento hace un salto de linea -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+<!-- Este boton permite enviar los datos y contiene un icono -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+<!-- Este boton permite borrar los datos y contiene un icono -->
+</form>
+<!-- Este elemento cierra el formulario -->
+</body>
+</html>

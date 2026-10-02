@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Rodarte Gonzalez Caleb Daniel -->
+<!-- 5ºI -->
+<!-- 1083 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+<h2>Formulario con limitaciones</h2>
+<!-- Este encabezado identifica el formulario -->
+<form action="" method="post">
+<!-- Este elemento contiene los datos del formulario -->
+Ingresa tu nombre:
+<!-- Este texto indica el dato que se solicita -->
+<!-- Desahbilitacion de campo -->
+<!-- Este comentario indica que el campo esta deshabilitado -->
+<input type="text" name="nombre" disabled><br>
+<!-- El atributo disabled evita que el campo pueda utilizarse -->
+<!-- Limitacion de caracteres -->
+<!-- Este comentario indica que existe un limite de caracteres -->
+Contraseña:
+<!-- Este texto indica el dato que se solicita -->
+<input type="password" name="pass" maxlength="5"><br>
+<!-- El atributo maxlength establece el maximo de caracteres -->
+<!-- Solo lectura -->
+<!-- Este comentario indica que el campo es de solo lectura -->
+Comentarios:
+<!-- Este texto identifica el contenido del campo -->
+<textarea name="comentarios" readonly>
+<!-- El atributo readonly evita modificar el contenido -->
+Este es mi comentario y no se puede borrar
+<!-- Este es el contenido que aparece dentro del area de texto -->
+</textarea><br>
+<!-- Este elemento cierra el area de texto y hace un salto de linea -->
+</form>
+<!-- Este elemento cierra el formulario -->
+</body>
+</html>
